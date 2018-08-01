@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <title>Test</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./src/css/vendor.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+</head>
+<body>
+<header class="header-sticky header-dark">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="./index.html">
+                <img class="navbar-logo navbar-logo-light" src="./src/images/demo/logo/logo-light.svg" alt="Logo">
+                <img class="navbar-logo navbar-logo-dark" src="./src/images/demo/logo/logo-dark.svg" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="burger"><span></span></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav align-items-center mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="" role="button">
+                            Menu 1
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" role="button">
+                            Menu 2
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" role="button">
+                            Menu 3
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+<div class="viewport">
+    <div class="image image-overlay vh-50 section-decorated-bottom" style="background-color: #be1e2d; z-index: -1" >
+        <div class="decorated-bottom text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 40"  preserveAspectRatio="none">
+                <path d="">
+                    <animate
+                            attributeName="d"
+                            begin="0s"
+                            dur="5s"
+                            repeatCount="indefinite"
+                            values="
+              M0,0 C200,7.11236625e-15 200,40 400,40 C600,40 800,0 1000,0 L1000,50 L0,50 L0,0 Z;
+              M0,40 C200,40 400,0 600,0 C800,0 800,40 1000,40 L1000,50 L0,50 L0,40 Z;
+              M0,30 C200,30 200,0 400,0 C600,0 800,40 1000,40 L1000,50 L0,50 L0,30 Z;
+              M0,0 C200,7.11236625e-15 200,40 400,40 C600,40 800,0 1000,0 L1000,50 L0,50 L0,0 Z;"></animate>
+                </path>
+            </svg>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center align-items-center vh-100">
+            <div class="col-md-6 col-lg-5">
+                <div class="bordered floating p-4 " style="background-color: white">
+                    <h2>Sign In</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput2">Password</label>
+                            <input type="password" class="form-control" id="exampleFormControlInput2">
+                        </div>
+                        <a href="" class="btn btn-primary btn-block"  style="background-color:#be1e2d; border-color: #be1e2d">Sign In</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- scripts -->
+<script src="./src/js/vendor.js"></script>
+<script src="./src/js/app.js"></script>
+</body>
+</html>
